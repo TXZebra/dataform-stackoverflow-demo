@@ -1,7 +1,0 @@
-config {
-    type: "view",
-    schema: "reporting"
-
- }
-
-select * from ${ref("stg_users")} limit 100
